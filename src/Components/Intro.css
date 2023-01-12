@@ -1,0 +1,87 @@
+.app-intro-section{
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height:100vh;
+    width:100%;
+    padding:2rem 3rem;
+
+}
+.app-intro-info{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.app-wrapper-text>p{
+    color:var(--color-white);
+    margin:0.8rem 0;
+   
+}
+.app-intro-para{
+    color:var(--color-white)
+}
+.app-intro-slogan{
+    color:var(--color-white);
+    line-height:80px;
+    letter-spacing: 0.04em;
+    font-size:60px;
+    color:var(--color-golden);
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.app-intro-btn{
+    padding: 8px 6px ;
+    border-radius: 4px;
+    margin:0.8rem 0;
+    background-color: var(--color-white);
+}
+.app-intro-image{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-intro-image>img{
+    width:80%;
+    object-fit: contain;
+
+}
+
+@media screen and (max-width:1024px) {
+    .app-intro-section{
+        display: flex;
+        justify-content:space-between;
+        align-items:flex-start;
+        flex-direction: column;
+        height:auto;
+        padding-top: 4rem;;
+
+
+    }
+    .app-intro-image{
+        display: flex;
+        width:100%;
+        margin:2rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .app-intro-slogan{
+        font-size: 40px;
+        line-height:50px;
+    }
+    
+}
+
+@media screen and (max-width:650px){
+    .app-intro-slogan{
+        font-size: 30px;
+        line-height:40px;
+    }
+    .app-intro-para{
+        font-size:16px;
+        
+    }
+}

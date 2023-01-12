@@ -1,0 +1,136 @@
+.app-about-section{
+    background-image:url("https://github.com/adrianhajdin/project_modern_ui_ux_restaurant/blob/main/src/assets/bg.png?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    transition: 0.5 ease;
+    background-size: cover;
+   
+}
+.about-us{
+    position:relative;
+    display: flex;
+    color:white;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    height:100vh;
+    gap:12rem;
+    padding: 0 2rem;
+    
+}
+.app-about-us{
+    flex:1;
+    text-align: right;
+    display: flex;
+    z-index:5;
+    gap:0.4rem;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-end;
+
+}
+.app-our-history{
+    flex:1;
+    z-index:2;
+    gap:0.4rem;
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+.g-image{
+    position:absolute ;
+    opacity: 0.8;
+    z-index:0;
+}
+.g-image>img{
+    width:300px;
+}
+.know-more{
+    padding: 8px 12px;
+    margin:0.6rem 0;
+    cursor: pointer;
+
+}
+
+.app-about-us>img{
+    width: 40px;
+}
+
+.app-our-history>img{
+    width:40px;
+    object-fit: contain;
+}
+.knife-image{
+    position: absolute;
+
+}
+
+
+.knife-image>img{
+    height:90vh;
+    object-fit: contain;
+
+}
+@media screen and (max-width:668px) {
+    .app-our-history>h1{
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .app-about-us>h1{
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    
+    
+}
+@media screen and (max-width:484px) {
+    .app-our-history>h1{
+        font-weight: 600;
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .app-about-us>h1{
+        font-weight: 600;
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    .app-our-history>p{
+        font-size: 0.8rem;
+        
+    }
+    .app-about-us>p{
+        font-size: 0.8rem;
+       
+    }
+    
+}
+
+@media screen and (max-width:380px) {
+    .app-our-history>h1{
+        font-weight: 500;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+    .app-about-us>h1{
+        font-weight: 500;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+    .app-our-history>p{
+        font-size: 0.6rem;
+        
+    }
+    .app-about-us>p{
+        font-size: 0.6rem;
+       
+    }
+    .know-more{
+        padding: 2px 4px;
+        font-size:0.6rem;
+    }
+    
+}

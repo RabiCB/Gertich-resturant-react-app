@@ -1,0 +1,232 @@
+.app-footer{
+    height:auto;
+    width: 100%;
+    background-color: var(--color-black);
+    color:white;
+    padding: 2rem 4rem;
+
+}
+.app-footer-title{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    
+}
+.footer-end{
+  
+    margin:2rem;
+}
+.app-footer-title>:nth-child(1){
+    color: var(--color-golden);
+}
+.social-media>h1{
+    color:white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.input-form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height:4rem;
+    padding: 0 0.4rem;
+    margin-top: 2.4rem;
+    gap:1rem;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid white;
+
+}
+.input-form>input{
+    height:2rem;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 0.4rem;
+}
+.input-form>select{
+    height: 2rem;
+    outline: none;
+    border-radius: 4px;
+
+}
+
+.footer-first{
+    display:flex;
+    gap:1.2rem;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footer-end>h1{
+    font-weight: 500;
+    margin-left: 0.6rem;
+
+}
+.footer-end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.input-form>button{
+    height: 2rem;
+    padding:4px 8px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.input-form>button:hover{
+    background-color: var(--color-grey);
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2rem 0;
+}
+.social-media{
+    display: flex;
+    gap:1.2rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    
+}
+.footer-form>input{
+    height:2.2rem;
+    width:160px;
+    outline: none;
+    border-radius: 4px;
+    padding-left:0.3rem;
+}
+.social-media>span{
+    margin: 0 0.6rem;
+    cursor: pointer;
+}
+.footer-form{
+    display: flex;
+    gap:1rem;
+}
+.footer-form>button{
+    padding:4px 6px;
+    cursor: pointer;
+}
+.social-apps{
+    display: flex;
+    gap:0.7rem;
+}
+
+.items{
+    margin-left: 4rem;
+    list-style:none;
+    text-decoration:none;
+}
+.items>a{
+    text-decoration: none;
+    color:white;
+}
+.items>a>li{
+    list-style:none;
+    text-decoration:none;
+    cursor:pointer;
+    margin:0.5rem 0;
+}
+.Back-top{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    justify-content: center;
+    height:2rem;
+    cursor:pointer;
+}
+@media screen and (max-width:1100px){
+    .input-form{
+        display:flex;
+        height:480px;
+        gap:1rem;
+        flex-direction: column;
+
+    }
+    .app-footer{
+        height:auto;
+    }
+    .input-form>input{
+        width:360px;
+    }
+    .input-form>select{
+        width:140px;
+    }
+    .input-form>button{
+        width:140px;
+    }
+    
+}
+@media screen and (max-width:900px){
+    .footer-end{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:2rem;
+    }
+    .footer-first{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .social-media{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .items{
+        display: flex;
+        border: 1px solid white;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .app-footer-title>h1{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .app-footer-title{
+        margin-bottom:2rem;
+    }
+    .input-form>input{
+        width:300px;
+    }
+    .app-footer{
+        height:auto;
+    }
+    .footer-end>h4{
+        font-size:0.8rem;
+    }
+}
+@media screen and (max-width:400px){
+    
+    .app-footer-title>h1{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .app-footer-title{
+        margin-bottom:2rem;
+    }
+    .input-form>input{
+        width:200px;
+    }
+    .app-footer{
+        height:auto;
+    }
+}
